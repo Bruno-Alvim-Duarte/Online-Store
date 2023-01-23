@@ -131,13 +131,11 @@ class Details extends Component {
         >
           Adicionar ao carrinho
         </button>
-        <button type="button">
+        <div className="cart-button" type="button">
           <Link to="/shopping-cart" data-testid="shopping-cart-button">
-            Carrinho de Compras
-            <br />
             <span data-testid="shopping-cart-size">{ totalItemsCart }</span>
           </Link>
-        </button>
+        </div>
         <div>
           <fieldset>
             <form>

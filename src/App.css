@@ -1,42 +1,194 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  font-family: Montserrat , sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: rgb(236, 236, 236);
 }
 
-@media ( prefers-reduced-motion : no-preference ) {
-
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-
-}
-
-.App-header {
+/* ----------------------------- Header ------------------------- */
+header {
   align-items: center;
-  background-color: #282c34;
-  color: white;
+  background-color: #fff159;
+  display: flex;
+  height: 100px;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.header--title {
+  left: 0;
+  position: absolute;
+}
+
+.header--search {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header--search--input {
+  border-radius: 4px;
+  margin: 0 10px;
+  padding: 2px;
+}
+
+.header--search--btn {
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 2px;
+}
+
+
+/* ----------------------------- CartButton ------------------------- */
+.cart-button {
+  background-image: url('./assets/cart-icon.png');
+  background-size: cover;
+  display: flex;
+  height: 50px;
+  justify-content: flex-end;
+  width: 50px;
+}
+
+.cart-button span {
+  background-color: rgb(153, 237, 205);
+  border-radius: 100px;
+  display: flex;
+}
+
+.cart-button a {
+  color: rgb(73, 147, 125);
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+
+/* -------------------------- Home -------------------------------- */
+.home-container {
+  display: flex;
+  gap: 10px;
+}
+
+/* --------------- ProductInfo ------------------------------------------ */
+.result {
+  background-color: rgb(236, 236, 236);
+  display: flex;
+  flex-flow: wrap;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: auto;
+}
+
+.product-container {
+  align-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+  gap: 10px;
+  justify-content: flex-start;
+}
+
+.nao-encontrado {
+  display: flex;
+}
+
+.product {
+  border-bottom: 1px solid black;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  font-size: calc(10px + 2vmin);
-  justify-content: center;
-  min-height: 100vh;
+  height: 200px;
+  padding: 10px;
+  width: 200px;
 }
 
-.App-link {
-  color: #61dafb;
+.product img {
+  height: 80px;
+  width: 80px;
 }
 
-@keyframes App-logo-spin {
+.product:hover {
+  border: 1px solid grey;
+  border-radius: 10px;
+}
 
-  from {
-    transform: rotate(0deg);
-  }
+.product-container a {
+  color: black;
+  text-decoration: none;
+}
 
-  to {
-    transform: rotate(360deg);
-  }
+.productInfo--fretegratis {
+  color: #48bf81;
+  font-weight: 700;
+}
+
+.productInfo--price {
+  font-weight: 600;
+}
+
+
+/* ------------------------ Categories -------------------------------- */
+.categories-container {
+  background-color: #fdf6b1;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.categories-container ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  left: 36px;
+}
+
+.categories--title {
+  border-bottom: 1px solid black;
+  margin-bottom: 30px;
+}
+
+/* ------------------------ Shopping Cart -------------------------------- */
+.shoppingCart--container {
+  background-color: white;
+  border: 1px solid gray;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+.shoppingCart--counter {
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
+}
+
+.shoppingCart--counter--btn {
+  height: 25px;
+  width: 25px;
+}
+
+.shoppingCart--counter--btn:hover {
+  cursor: pointer;
+  scale: 1.1;
+}
+
+.shoppingCart--counter--btn:disabled {
+  background-color: gray;
+}
+
+.shoppingCart--counter--increaseBtn {
+  background-color: lightgreen;
+}
+
+.shoppingCart--counter--decreaseBtn {
+  background-color: red;
+}
+
+.shoppingCart--remove {
+  padding: 0 10px;
+}
+
+.shoppinCart--remove:hover {
+  cursor: pointer;
 }

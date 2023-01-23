@@ -20,7 +20,8 @@ class Categories extends Component {
     const { categories } = this.state;
     const { fetchProductByCategory } = this.props;
     return (
-      <div>
+      <div className="categories-container">
+        <h3 className="categories--title">Categorias</h3>
         <ul>
           {categories.length === 0
             ? ''
