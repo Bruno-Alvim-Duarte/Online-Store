@@ -44,4 +44,10 @@ Minha experiência foi transformadora levando em consideração que desenvolvemo
 </details>
 
 
-<!-- +++++++ VIDEO DE APRESENTAÇÃO ++++++++++ -->
+## +++++++ VIDEO DE APRESENTAÇÃO 📹 ++++++++++
+
+
+https://user-images.githubusercontent.com/14060102/214166610-23b336ff-9269-4578-9563-1c2950d25a85.mp4
+
+
+
