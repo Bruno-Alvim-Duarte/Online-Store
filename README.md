@@ -23,7 +23,7 @@ Minha experiência foi transformadora levando em consideração que desenvolvemo
   <summary><strong>🗓 Data de Entrega</strong></summary><br />
   
   * Este projeto é em grupo;
-  * Serão `4` dias de projeto;
+  * Foram `4` dias de projeto;
 
 </details>
 
