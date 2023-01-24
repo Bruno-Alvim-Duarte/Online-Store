@@ -1,8 +1,7 @@
 # Boas-vindas ao repositório do projeto Front-end Online Store!
 
 ## Descrição 📩
-Esse projeto feito por mim e mais 4 estudantes em grupo 🫂 visa entregar uma plataforma de E-Commerce 🏪 com funcionalidades como: adicionar itens ao carrinho, escolher categorias de apresentação dos itens, pesquisar um item pelo nome, finalizar a compra preenchendo um formulário de compra, entre outras que você pode checar no nosso vídeo de apresentação ou até mesmo no site em que hospedamos o projeto 😉
-
+Esse projeto feito por mim e mais 4 estudantes em grupo 🫂 visa entregar uma plataforma de E-Commerce 🏪 com funcionalidades como: adicionar itens ao carrinho, escolher categorias de apresentação dos itens, pesquisar um item pelo nome, finalizar a compra preenchendo um formulário de compra, entre outras que você pode checar no nosso vídeo de apresentação ou até mesmo no site em que hospedamos o projeto 😉: <a href="https://online-store-two-zeta.vercel.app/" target="_blank">online-store</a>
 
 ## Relato Pessoal 🗣️
 Minha experiência foi transformadora levando em consideração que desenvolvemos nosso primeiro trabalho em grupo da Trybe. Nós aprendemos muito, principalmente sobre soft skills e a importância delas. Tínhamos 4 dias pra planejar realizar e entregar o projeto e nem nos conhecíamos ainda, ou seja, tivemos que nos adaptar uns aos outros muito rapidamente, o que para nós foi um granmde desafio. Tivemos muitas dificuldades de comunicação, incompatibilidades de agenda, porém em momento algum pensamos em desitir. Insistimos colaborando uns com os outros e nos apoiando, até entregarmos o que era necessário. Saímos mais completos e preparados para os próximos desafios!
